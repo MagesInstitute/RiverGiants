@@ -1,4 +1,6 @@
+<<<<<<< HEAD
 Base path: C:/Program Files/Unity/Editor/Data
+<<<<<<< HEAD
 Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-5972
 Cmd: getPlatforms
 Cmd: compileSnippet
@@ -6,6 +8,15 @@ Cmd: compileSnippet
 Cmd: compileSnippet
   api=4 type=1 insize=13030 outsize=1899 kw=UNITY_COLORSPACE_GAMMA _SUNDISK_SIMPLE pd= ok=1
 Cmd: compileSnippet
+=======
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-9776
+=======
+Base path: C:/Program Files (x86)/Unity/Editor/Data
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-20724
+>>>>>>> 71822b34ff8f4c57db77714ef0c412d8a07ab20f
+Cmd: getPlatforms
+Cmd: compileSnippet
+>>>>>>> 652820314816f54945d571eef9341f578a1bf297
   api=4 type=0 insize=751 outsize=3533 kw=SHADOWS_DEPTH pd= ok=1
 Cmd: compileSnippet
   api=4 type=1 insize=751 outsize=380 kw=SHADOWS_DEPTH pd= ok=1
