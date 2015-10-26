@@ -11,6 +11,12 @@ public class Character_Movement : MonoBehaviour
 
     public float cspeed;
 
+    float x;
+
+    float y;
+
+    Quaternion newRotation;
+
     Vector2 startPos;
 
     // Use this for initialization
@@ -22,6 +28,7 @@ public class Character_Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
         {
             joystiqgrp.SetActive(true);
@@ -37,13 +44,12 @@ public class Character_Movement : MonoBehaviour
 
             joystiq.localPosition = Vector2.ClampMagnitude(movePos*jspeed, 120);
 
-            float x = joystiq.localPosition.x / 100;
+            cspeed = 7;
 
-            float y = joystiq.localPosition.y / 100;
+            x = joystiq.localPosition.x;
 
-            transform.Translate(x * cspeed * Time.deltaTime, y * cspeed * Time.deltaTime,0);
-
-            print(movePos);
+            y = joystiq.localPosition.y;
+            
         }
 
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Ended)
@@ -51,5 +57,14 @@ public class Character_Movement : MonoBehaviour
 
             joystiqgrp.SetActive(false);
         }
+
+        if (Input.touchCount == 0)
+        {
+            cspeed = 0;
+        }
+
+        transform.Translate(x/100 * cspeed * Time.deltaTime, y/100 * cspeed * Time.deltaTime, 0, Camera.main.transform);
+        newRotation = Quaternion.LookRotation(new Vector3(x,y,0));
+        transform.rotation = Quaternion.Slerp(transform.rotation, newRotation, Time.deltaTime * cspeed);
     }
 }
