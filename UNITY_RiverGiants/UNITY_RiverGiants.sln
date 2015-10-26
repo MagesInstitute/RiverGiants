@@ -1,23 +1,38 @@
+<<<<<<< HEAD
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+=======
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
 Project("{7EC0751B-D7DF-10AA-8692-1F73FEDD60F5}") = "UNITY_RiverGiants", "Assembly-CSharp.csproj", "{54EA7122-31F3-4796-BBF0-959CCB0A2353}"
 EndProject
+>>>>>>> c7e5f4943be4f18eee68a889a6fbb99e847bfe21
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+<<<<<<< HEAD
+=======
 		{54EA7122-31F3-4796-BBF0-959CCB0A2353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{54EA7122-31F3-4796-BBF0-959CCB0A2353}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54EA7122-31F3-4796-BBF0-959CCB0A2353}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54EA7122-31F3-4796-BBF0-959CCB0A2353}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> c7e5f4943be4f18eee68a889a6fbb99e847bfe21
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+<<<<<<< HEAD
 																			GlobalSection(MonoDevelopProperties) = preSolution
+=======
+<<<<<<< HEAD
+=======
+								GlobalSection(MonoDevelopProperties) = preSolution
+>>>>>>> ad5e611a7a199f6ec30452075ea2b28e245d2b2b
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
@@ -37,4 +52,5 @@ Global
 		$3.scope = text/plain
 	EndGlobalSection
 
+>>>>>>> c7e5f4943be4f18eee68a889a6fbb99e847bfe21
 EndGlobal
