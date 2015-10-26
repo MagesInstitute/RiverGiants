@@ -17,7 +17,17 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+<<<<<<< HEAD
 											GlobalSection(MonoDevelopProperties) = preSolution
+=======
+<<<<<<< HEAD
+																			GlobalSection(MonoDevelopProperties) = preSolution
+=======
+<<<<<<< HEAD
+=======
+								GlobalSection(MonoDevelopProperties) = preSolution
+>>>>>>> ad5e611a7a199f6ec30452075ea2b28e245d2b2b
+>>>>>>> ff3a3897ae1bd2a420141d9bf218ad7ad927503b
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
