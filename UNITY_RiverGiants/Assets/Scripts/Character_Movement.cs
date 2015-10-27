@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class Character_Movement : MonoBehaviour
 {
@@ -15,6 +17,8 @@ public class Character_Movement : MonoBehaviour
 
     float y;
 
+    bool boost;
+
     Quaternion newRotation;
 
     Vector2 startPos;
@@ -23,6 +27,44 @@ public class Character_Movement : MonoBehaviour
     void Start()
     {
 
+    }
+
+    void OnTriggerEnter (Collider col)
+    {
+        switch (col.tag)
+        {
+            case "Food":
+                print("Yummy");
+                break;
+
+            case "Poison":
+                print("You have been poisoned");
+                break;
+
+            default:
+                print("Ouch");
+                break;
+        }
+    }
+
+    public void Boost()
+    {
+        boost = true;
+        StartCoroutine(Boost_());
+    }
+
+    public void StopBoost()
+    {
+        boost = false;
+    }
+
+    IEnumerator Boost_()
+    {
+        while (boost)
+        {
+            print("GOOOOOOO");
+            yield return null;
+        }
     }
 
     // Update is called once per frame
@@ -54,7 +96,6 @@ public class Character_Movement : MonoBehaviour
 
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Ended)
         {
-
             joystiqgrp.SetActive(false);
         }
 
