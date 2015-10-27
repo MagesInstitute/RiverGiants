@@ -45,9 +45,12 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Boost_Button.cs" />
      <Compile Include="Assets\Scripts\Character_Follow.cs" />
      <Compile Include="Assets\Scripts\Character_Movement.cs" />
+     <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\TestScript.cs" />
+     <Compile Include="Assets\Scripts\Touch_Test.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
