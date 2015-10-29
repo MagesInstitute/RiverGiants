@@ -45,24 +45,20 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-     <Compile Include="Assets\Scripts\Boost_Button.cs" />
-=======
      <Compile Include="Assets\Scripts\BoidController.cs" />
      <Compile Include="Assets\Scripts\BoidFlocking.cs" />
      <Compile Include="Assets\Scripts\BoidWatcher.cs" />
->>>>>>> 0bb31db01b1c1af170219b6a39d5e24308245da2
+     <Compile Include="Assets\Scripts\Boost_Button.cs" />
      <Compile Include="Assets\Scripts\Character_Follow.cs" />
      <Compile Include="Assets\Scripts\Character_Movement.cs" />
+     <Compile Include="Assets\Scripts\FoodInstantiator.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\ScoreManager.cs" />
+     <Compile Include="Assets\Scripts\SilentFollower.cs" />
      <Compile Include="Assets\Scripts\TestScript.cs" />
-<<<<<<< HEAD
      <Compile Include="Assets\Scripts\Touch_Test.cs" />
-=======
      <Compile Include="Assets\Scripts\UIs\ToMainMenu.cs" />
      <Compile Include="Assets\Scripts\UIs\ToSettings.cs" />
->>>>>>> 0bb31db01b1c1af170219b6a39d5e24308245da2
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
