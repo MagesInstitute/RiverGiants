@@ -51,8 +51,14 @@
      <Compile Include="Assets\Scripts\Boost_Button.cs" />
      <Compile Include="Assets\Scripts\Character_Follow.cs" />
      <Compile Include="Assets\Scripts\Character_Movement.cs" />
+     <Compile Include="Assets\Scripts\FoodInstantiator.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
+<<<<<<< HEAD
      <Compile Include="Assets\Scripts\Suck_It.cs" />
+=======
+     <Compile Include="Assets\Scripts\ScoreManager.cs" />
+     <Compile Include="Assets\Scripts\SilentFollower.cs" />
+>>>>>>> ecbda953937029483982626b2063dfe95a2d3fae
      <Compile Include="Assets\Scripts\TestScript.cs" />
      <Compile Include="Assets\Scripts\Touch_Test.cs" />
      <Compile Include="Assets\Scripts\UIs\ToMainMenu.cs" />

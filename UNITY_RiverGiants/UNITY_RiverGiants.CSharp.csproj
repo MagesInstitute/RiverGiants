@@ -68,8 +68,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Character_Follow.cs" />
     <Compile Include="Assets\Scripts\Character_Movement.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\TestScript.cs" />
+    <Compile Include="Assets\Scripts\UIs\DashBoard.cs" />
+    <Compile Include="Assets\Scripts\UIs\ToDashboard.cs" />
     <Compile Include="Assets\Scripts\UIs\ToMainMenu.cs" />
     <Compile Include="Assets\Scripts\UIs\ToSettings.cs" />
   </ItemGroup>
