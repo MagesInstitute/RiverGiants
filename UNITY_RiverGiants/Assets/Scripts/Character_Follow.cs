@@ -15,7 +15,6 @@ public class Character_Follow : MonoBehaviour {
 	void Start ()
     {
         initpos = transform.position - Player.transform.position;
-        Player.GetComponent<Rigidbody>();
 	}
 	
 	// Update is called once per frame
