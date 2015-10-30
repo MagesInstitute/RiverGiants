@@ -11,7 +11,11 @@ public class Character_Movement : MonoBehaviour
 
     public float jspeed = 0.1F;
 
-    public float cspeed;
+    public float speed;
+
+    private float cspeed;
+
+    public float boostMult;
 
     float x;
 
@@ -50,19 +54,32 @@ public class Character_Movement : MonoBehaviour
     public void Boost()
     {
         boost = true;
-        StartCoroutine(Boost_());
+        StartCoroutine(BoostUp_());
     }
 
     public void StopBoost()
     {
         boost = false;
+        speed = 20;
+        StartCoroutine(BoostDown_());
     }
 
-    IEnumerator Boost_()
+    IEnumerator BoostUp_()
     {
-        while (boost)
+        for (float i = 0; i <= 1 && boost; i += Time.deltaTime) 
         {
-            print("GOOOOOOO");
+
+            cspeed = speed + (boostMult * i);
+            yield return null;
+        }
+    }
+
+    IEnumerator BoostDown_()
+    {
+        for (float i = 0; i <= 1 && boost==false; i += Time.deltaTime)
+        {
+
+            cspeed = speed + (boostMult * -i);
             yield return null;
         }
     }
@@ -77,6 +94,8 @@ public class Character_Movement : MonoBehaviour
             // Get movement of the finger since last frame
             startPos = Input.GetTouch(0).position;
 
+            cspeed = 10;
+
             joystiqgrp.transform.position = startPos;
         }
 
@@ -85,8 +104,6 @@ public class Character_Movement : MonoBehaviour
             Vector2 movePos = Input.GetTouch(0).position - startPos;
 
             joystiq.localPosition = Vector2.ClampMagnitude(movePos*jspeed, 120);
-
-            cspeed = 7;
 
             x = joystiq.localPosition.x;
 
