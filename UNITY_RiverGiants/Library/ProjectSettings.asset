@@ -5,7 +5,7 @@ PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 7
   AndroidProfiler: 0
-  defaultScreenOrientation: 2
+  defaultScreenOrientation: 4
   targetDevice: 2
   targetResolution: 0
   useOnDemandResources: 0
@@ -92,11 +92,7 @@ PlayerSettings:
   metroEnableLowLatencyPresentationAPI: 0
   xboxOneDisableKinectGpuReservation: 0
   virtualRealitySupported: 0
-<<<<<<< HEAD
-  productGUID: 20c2cfefa539ea24fa7ec0ea4f4584cc
-=======
-  productGUID: 8acb9856ba14f3948a88ac50d3546960
->>>>>>> ecbda953937029483982626b2063dfe95a2d3fae
+  productGUID: 25a82ffcfc9aa7f4cb28f4c8168c6664
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 9
   AndroidPreferredInstallLocation: 1

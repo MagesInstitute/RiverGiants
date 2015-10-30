@@ -53,14 +53,14 @@
      <Compile Include="Assets\Scripts\Character_Movement.cs" />
      <Compile Include="Assets\Scripts\FoodInstantiator.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
-<<<<<<< HEAD
-     <Compile Include="Assets\Scripts\Suck_It.cs" />
-=======
      <Compile Include="Assets\Scripts\ScoreManager.cs" />
      <Compile Include="Assets\Scripts\SilentFollower.cs" />
->>>>>>> ecbda953937029483982626b2063dfe95a2d3fae
+     <Compile Include="Assets\Scripts\Suck_It.cs" />
      <Compile Include="Assets\Scripts\TestScript.cs" />
      <Compile Include="Assets\Scripts\Touch_Test.cs" />
+     <Compile Include="Assets\Scripts\UIs\DashBoard.cs" />
+     <Compile Include="Assets\Scripts\UIs\ToDashboard.cs" />
+     <Compile Include="Assets\Scripts\UIs\ToGame.cs" />
      <Compile Include="Assets\Scripts\UIs\ToMainMenu.cs" />
      <Compile Include="Assets\Scripts\UIs\ToSettings.cs" />
  <Reference Include="UnityEngine.UI">
