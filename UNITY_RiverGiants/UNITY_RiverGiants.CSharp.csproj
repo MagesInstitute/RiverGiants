@@ -87,7 +87,13 @@
     <Compile Include="Assets\Scripts\Suck_It.cs" />
     <Compile Include="Assets\Scripts\TestScript.cs" />
     <Compile Include="Assets\Scripts\Touch_Test.cs" />
+    <Compile Include="Assets\Scripts\UIs\ControllableAudioSource.cs" />
     <Compile Include="Assets\Scripts\UIs\DashBoard.cs" />
+    <Compile Include="Assets\Scripts\UIs\MasterVolume.cs" />
+    <Compile Include="Assets\Scripts\UIs\MusicManager.cs" />
+    <Compile Include="Assets\Scripts\UIs\MusicVolume.cs" />
+    <Compile Include="Assets\Scripts\UIs\SFXVolume.cs" />
+    <Compile Include="Assets\Scripts\UIs\SliderVolume.cs" />
     <Compile Include="Assets\Scripts\UIs\Splash1.cs" />
     <Compile Include="Assets\Scripts\UIs\Splash2.cs" />
     <Compile Include="Assets\Scripts\UIs\ToDashboard.cs" />
