@@ -51,17 +51,11 @@
     <Reference Include="UnityEngine">
       <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Analytics">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
@@ -89,15 +83,17 @@
     <Compile Include="Assets\Scripts\Touch_Test.cs" />
     <Compile Include="Assets\Scripts\UIs\ControllableAudioSource.cs" />
     <Compile Include="Assets\Scripts\UIs\DashBoard.cs" />
-    <Compile Include="Assets\Scripts\UIs\MasterVolume.cs" />
     <Compile Include="Assets\Scripts\UIs\MusicManager.cs" />
     <Compile Include="Assets\Scripts\UIs\MusicVolume.cs" />
+    <Compile Include="Assets\Scripts\UIs\SFXTest.cs" />
     <Compile Include="Assets\Scripts\UIs\SFXVolume.cs" />
     <Compile Include="Assets\Scripts\UIs\SliderVolume.cs" />
     <Compile Include="Assets\Scripts\UIs\Splash1.cs" />
     <Compile Include="Assets\Scripts\UIs\Splash2.cs" />
     <Compile Include="Assets\Scripts\UIs\ToDashboard.cs" />
+    <Compile Include="Assets\Scripts\UIs\ToGame.cs" />
     <Compile Include="Assets\Scripts\UIs\ToMainMenu.cs" />
+    <Compile Include="Assets\Scripts\UIs\ToMapScene.cs" />
     <Compile Include="Assets\Scripts\UIs\ToPlayScene.cs" />
     <Compile Include="Assets\Scripts\UIs\ToSettings.cs" />
   </ItemGroup>
