@@ -1,7 +1,7 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UNITY_RiverGiants.CSharp", "UNITY_RiverGiants.CSharp.csproj", "{A8C3DB75-6824-854C-58AF-28CBCEECF941}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{7EC0751B-D7DF-10AA-8692-1F73FEDD60F5}") = "UNITY_RiverGiants", "Assembly-CSharp.csproj", "{54EA7122-31F3-4796-BBF0-959CCB0A2353}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,12 +9,76 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A8C3DB75-6824-854C-58AF-28CBCEECF941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A8C3DB75-6824-854C-58AF-28CBCEECF941}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A8C3DB75-6824-854C-58AF-28CBCEECF941}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A8C3DB75-6824-854C-58AF-28CBCEECF941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54EA7122-31F3-4796-BBF0-959CCB0A2353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54EA7122-31F3-4796-BBF0-959CCB0A2353}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54EA7122-31F3-4796-BBF0-959CCB0A2353}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54EA7122-31F3-4796-BBF0-959CCB0A2353}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+<<<<<<< HEAD
+																																												GlobalSection(MonoDevelopProperties) = preSolution
+=======
+<<<<<<< HEAD
+																																													GlobalSection(MonoDevelopProperties) = preSolution
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+																																								GlobalSection(MonoDevelopProperties) = preSolution
+>>>>>>> 5ea8fe352e277f63130fa19b003983e31b6c0b4e
+>>>>>>> f71b705da8793df2a882dd0387a26d8da6396534
+=======
+<<<<<<< HEAD
+																																													GlobalSection(MonoDevelopProperties) = preSolution
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+																																	GlobalSection(MonoDevelopProperties) = preSolution
+>>>>>>> 33e21c8a7812a9f339c7f470d0f21f954c4b22e1
+=======
+<<<<<<< HEAD
+																													GlobalSection(MonoDevelopProperties) = preSolution
+>>>>>>> ecbda953937029483982626b2063dfe95a2d3fae
+=======
+																														GlobalSection(MonoDevelopProperties) = preSolution
+>>>>>>> cbfdaf54e4fd99b415ebe1338711bf9f0fd95acd
+=======
+>>>>>>> 0a24f75dee6e8a056696110594814683e6a3c20c
+=======
+<<<<<<< HEAD
+																			GlobalSection(MonoDevelopProperties) = preSolution
+>>>>>>> 0bb31db01b1c1af170219b6a39d5e24308245da2
+=======
+<<<<<<< HEAD
+=======
+								GlobalSection(MonoDevelopProperties) = preSolution
+>>>>>>> ad5e611a7a199f6ec30452075ea2b28e245d2b2b
+>>>>>>> ff3a3897ae1bd2a420141d9bf218ad7ad927503b
+		StartupItem = Assembly-CSharp.csproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = null
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+		$0.TextStylePolicy = $3
+		$3.FileWidth = 120
+		$3.TabWidth = 4
+		$3.IndentWidth = 4
+		$3.EolMarker = Unix
+		$3.inheritsSet = Mono
+		$3.inheritsScope = text/plain
+		$3.scope = text/plain
+	EndGlobalSection
+
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> b30e913bee8d8a7b307f0dd484a12d588cfc245d
+>>>>>>> f71b705da8793df2a882dd0387a26d8da6396534
 EndGlobal
